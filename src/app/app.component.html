@@ -1,0 +1,22 @@
+<div style="text-align:center">
+    <h2>
+        Fruitlist list from local json file...
+    </h2>
+    <ul *ngFor="let item of fruitList">
+       <li>
+           
+    <h3> P_Name :{{item.p_name}}</h3>
+     <p> P_ImageUrl :<img src='{{item.p_imageUrl}}'></p>
+
+    <p> P_Id: {{item.p_id}}</p>
+
+    <p>P_Cost :{{item.p_cost}}</p>
+
+    <p>P_Availability: {{item.p_availability}} </p>
+
+    <p>P_Details :{{item.p_details}}</p>
+
+    <p> P_Category: {{item.p_category}}</p>
+       </li>
+    </ul>
+</div>
